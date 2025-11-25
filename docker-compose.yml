@@ -17,23 +17,23 @@ services:
       # 后端配置
       - YPROMPT_PORT=8888
       - YPROMPT_HOST=127.0.0.1
-      - DOMAIN=localhost
+      - DOMAIN=ai.notone.cc
       
       # 数据库配置
       - DB_TYPE=sqlite
       - SQLITE_DB_PATH=../data/yprompt.db
       
-      # JWT配置
-      - SECRET_KEY=your-secret-key-change-in-production
+      # JWT配置（已生成随机强密钥）
+      - SECRET_KEY=Xk9mP2nQ5rT8vY1zA4cF7hJ3lO6sU0wB9eR2tY5uI8oP
       
       # Linux.do OAuth配置（可选）
       - LINUX_DO_CLIENT_ID=
       - LINUX_DO_CLIENT_SECRET=
-      - LINUX_DO_REDIRECT_URI=http://localhost/auth/callback
+      - LINUX_DO_REDIRECT_URI=https://ai.notone.cc/auth/callback
       
       # 默认管理员账号
       - ADMIN_USERNAME=admin
-      - ADMIN_PASSWORD=admin123
+      - ADMIN_PASSWORD=hamibook2025
       
       # 健康检查配置
       - HEALTH_CHECK_INTERVAL=30
