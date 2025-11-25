@@ -19,5 +19,35 @@
         "apiType": "google"
       }
     ]
+  },
+  {
+    "type": "google",
+    "name": "Gemini Pro",
+    "apiKey": "AIzaSyCQ0sxJrhRHUw62Hpeu9bJ9EqT7-fEgr0I",
+    "baseUrl": "https://generativelanguage.googleapis.com",
+    "enabled": true,
+    "models": [
+      {
+        "id": "gemini-2.5-pro-preview-05-06",
+        "name": "Gemini 2.5 Pro Preview",
+        "enabled": true,
+        "apiType": "google"
+      }
+    ]
+  },
+  {
+    "type": "openai",
+    "name": "Claude Opus",
+    "apiKey": "sk-r5HoRJOBzCEWVFRzJTwp6qusnBUjWZ2OcqJq2U4LV9X6rLsG",
+    "baseUrl": "http://206.237.11.116:3060",
+    "enabled": true,
+    "models": [
+      {
+        "id": "claude-opus-4-5-20251101",
+        "name": "Claude Opus 4.5",
+        "enabled": true,
+        "apiType": "openai"
+      }
+    ]
   }
 ]
