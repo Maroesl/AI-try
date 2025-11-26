@@ -39,7 +39,7 @@
     "type": "openai",
     "name": "Claude Opus",
     "apiKey": "sk-r5HoRJOBzCEWVFRzJTwp6qusnBUjWZ2OcqJq2U4LV9X6rLsG",
-    "baseUrl": "http://206.237.11.116:3060",
+    "baseUrl": "https://ai.notone.cc/claude-api",
     "enabled": true,
     "models": [
       {
