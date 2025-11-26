@@ -23,7 +23,7 @@
   {
     "type": "google",
     "name": "Gemini Pro",
-    "apiKey": "AIzaSyCQ0sxJrhRHUw62Hpeu9bJ9EqT7-fEgr0I",
+    "apiKey": "AIzaSyCM9PaO89hyuWaFeNDMBoaYkk0x_Dcdyv0",
     "baseUrl": "https://generativelanguage.googleapis.com",
     "enabled": true,
     "models": [
@@ -39,7 +39,7 @@
     "type": "openai",
     "name": "Claude Opus",
     "apiKey": "sk-r5HoRJOBzCEWVFRzJTwp6qusnBUjWZ2OcqJq2U4LV9X6rLsG",
-    "baseUrl": "https://ai.notone.cc/claude-api",
+    "baseUrl": "https://du.4sapi.com/v1/chat/completions",
     "enabled": true,
     "models": [
       {
